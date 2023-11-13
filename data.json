@@ -1,0 +1,13 @@
+{
+  "dataGqlTags": {
+    "Type": "image",
+    "Title": "Permanent Storage in Space",
+    "Description": "Access Data Anywhere",
+    "License": "yRj4a5KMctX_uOmKWCFJIjmY8DeJcusVk6-HzLiM_t8",
+    "App-Name": "SmartWeaveContract",
+    "App-Version": "0.3.0",
+    "Contract-Src": "Of9pi--Gj7hCTawhgxOwbuWnFI1h24TTgO5pw8ENJNQ",
+    "Indexed-By": "ucm",
+    "Init-State": "{ \"ticker\": \"ATOMIC\", \"name\": \"ATOMIC-ASSET\", \"balances\": { \"vh-NTHVvlKZqRxc8LyyTNok65yQ55a_PJ1zWLb9G2JI\": 100 }, \"claimable\": [] }"
+  }
+}
