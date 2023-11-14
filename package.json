@@ -7,12 +7,7 @@
   "author": "Tom Wilson <tom@hyper.io>",
   "license": "MIT",
   "dependencies": {
-    "ardrive-cli": "^2.0.2",
     "warp-contracts": "^1.4.23",
-    "warp-contracts-plugin-deploy": "^1.0.11",
-    "yargs": "^17.7.2"
-  },
-  "scripts": {
-    "deploy": "ardrive upload-file -w ./wallet.json -F 4f51ae01-e846-40b8-a83e-b51437da05c6 --metadata-file ./data.json -l ./asset.png --turbo"
+    "warp-contracts-plugin-deploy": "^1.0.11"
   }
 }

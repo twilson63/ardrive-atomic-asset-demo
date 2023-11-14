@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { WarpFactory } = require('warp-contracts')
 const { DeployPlugin } = require('warp-contracts-plugin-deploy')
 
