@@ -1,6 +1,6 @@
 {
   "name": "asset-registar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "register.js",
   "main": "register.js",
   "repository": "https://github.com/twilson63/ardrive-atomic-asset-demo.git",
