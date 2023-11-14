@@ -67,12 +67,18 @@ save the file as `data.json`
 
 ### Uploading with new arweave wallet.
 
-Using ardrive-cli we are going to create a wallet and a drive and a folder.
+Create a wallet or copy your wallet.json here.
 
 ```sh
-export SEED=$(ardrive generate-seedphrase)
+ardrive generate-seedphrase
+# copy the seed phrase that is in the output and include in the next command where the `...` are.
 # generate wallet
-ardrive generate-wallet -s ${SEED} > wallet.json
+ardrive generate-wallet -s "..." > wallet.json
+```
+
+Using `ardrive-cli` we are going to create a drive and a folder.
+
+```sh
 # create drive and folder
 export FOLDER=$(ardrive create-drive -w ./wallet.json -n "My Atomic Assets"  --turbo |  jq -r '.created[] | select(.type == "folder").entityId')
 # upload atomic asset
